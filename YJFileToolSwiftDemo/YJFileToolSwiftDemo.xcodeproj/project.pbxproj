@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C9E7F22069E0E0008EFEF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9E7F12069E0E0008EFEF1 /* AppDelegate.swift */; };
+		18C9E7F42069E0E0008EFEF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9E7F32069E0E0008EFEF1 /* ViewController.swift */; };
+		18C9E7F72069E0E0008EFEF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C9E7F52069E0E0008EFEF1 /* Main.storyboard */; };
+		18C9E7F92069E0E0008EFEF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C9E7F82069E0E0008EFEF1 /* Assets.xcassets */; };
+		18C9E7FC2069E0E0008EFEF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C9E7FA2069E0E0008EFEF1 /* LaunchScreen.storyboard */; };
+		18C9E8072069E0E0008EFEF1 /* YJFileToolSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9E8062069E0E0008EFEF1 /* YJFileToolSwiftDemoTests.swift */; };
+		18C9E8122069E0E0008EFEF1 /* YJFileToolSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9E8112069E0E0008EFEF1 /* YJFileToolSwiftDemoUITests.swift */; };
+		18C9E8212069E119008EFEF1 /* YJFileToolSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9E8202069E119008EFEF1 /* YJFileToolSwift.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C9E8032069E0E0008EFEF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C9E7E62069E0E0008EFEF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C9E7ED2069E0E0008EFEF1;
+			remoteInfo = YJFileToolSwiftDemo;
+		};
+		18C9E80E2069E0E0008EFEF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C9E7E62069E0E0008EFEF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C9E7ED2069E0E0008EFEF1;
+			remoteInfo = YJFileToolSwiftDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C9E7EE2069E0E0008EFEF1 /* YJFileToolSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJFileToolSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C9E7F12069E0E0008EFEF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18C9E7F32069E0E0008EFEF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18C9E7F62069E0E0008EFEF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C9E7F82069E0E0008EFEF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C9E7FB2069E0E0008EFEF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C9E7FD2069E0E0008EFEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C9E8022069E0E0008EFEF1 /* YJFileToolSwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJFileToolSwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C9E8062069E0E0008EFEF1 /* YJFileToolSwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJFileToolSwiftDemoTests.swift; sourceTree = "<group>"; };
+		18C9E8082069E0E0008EFEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C9E80D2069E0E0008EFEF1 /* YJFileToolSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJFileToolSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C9E8112069E0E0008EFEF1 /* YJFileToolSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJFileToolSwiftDemoUITests.swift; sourceTree = "<group>"; };
+		18C9E8132069E0E0008EFEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C9E8202069E119008EFEF1 /* YJFileToolSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJFileToolSwift.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C9E7EB2069E0E0008EFEF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C9E7FF2069E0E0008EFEF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C9E80A2069E0E0008EFEF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C9E7E52069E0E0008EFEF1 = {
+			isa = PBXGroup;
+			children = (
+				18C9E7F02069E0E0008EFEF1 /* YJFileToolSwiftDemo */,
+				18C9E8052069E0E0008EFEF1 /* YJFileToolSwiftDemoTests */,
+				18C9E8102069E0E0008EFEF1 /* YJFileToolSwiftDemoUITests */,
+				18C9E7EF2069E0E0008EFEF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C9E7EF2069E0E0008EFEF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C9E7EE2069E0E0008EFEF1 /* YJFileToolSwiftDemo.app */,
+				18C9E8022069E0E0008EFEF1 /* YJFileToolSwiftDemoTests.xctest */,
+				18C9E80D2069E0E0008EFEF1 /* YJFileToolSwiftDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C9E7F02069E0E0008EFEF1 /* YJFileToolSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18C9E81F2069E0F9008EFEF1 /* YJFileToolSwift */,
+				18C9E7F12069E0E0008EFEF1 /* AppDelegate.swift */,
+				18C9E7F32069E0E0008EFEF1 /* ViewController.swift */,
+				18C9E7F52069E0E0008EFEF1 /* Main.storyboard */,
+				18C9E7F82069E0E0008EFEF1 /* Assets.xcassets */,
+				18C9E7FA2069E0E0008EFEF1 /* LaunchScreen.storyboard */,
+				18C9E7FD2069E0E0008EFEF1 /* Info.plist */,
+			);
+			path = YJFileToolSwiftDemo;
+			sourceTree = "<group>";
+		};
+		18C9E8052069E0E0008EFEF1 /* YJFileToolSwiftDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C9E8062069E0E0008EFEF1 /* YJFileToolSwiftDemoTests.swift */,
+				18C9E8082069E0E0008EFEF1 /* Info.plist */,
+			);
+			path = YJFileToolSwiftDemoTests;
+			sourceTree = "<group>";
+		};
+		18C9E8102069E0E0008EFEF1 /* YJFileToolSwiftDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18C9E8112069E0E0008EFEF1 /* YJFileToolSwiftDemoUITests.swift */,
+				18C9E8132069E0E0008EFEF1 /* Info.plist */,
+			);
+			path = YJFileToolSwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+		18C9E81F2069E0F9008EFEF1 /* YJFileToolSwift */ = {
+			isa = PBXGroup;
+			children = (
+				18C9E8202069E119008EFEF1 /* YJFileToolSwift.swift */,
+			);
+			path = YJFileToolSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C9E7ED2069E0E0008EFEF1 /* YJFileToolSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C9E8162069E0E0008EFEF1 /* Build configuration list for PBXNativeTarget "YJFileToolSwiftDemo" */;
+			buildPhases = (
+				18C9E7EA2069E0E0008EFEF1 /* Sources */,
+				18C9E7EB2069E0E0008EFEF1 /* Frameworks */,
+				18C9E7EC2069E0E0008EFEF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJFileToolSwiftDemo;
+			productName = YJFileToolSwiftDemo;
+			productReference = 18C9E7EE2069E0E0008EFEF1 /* YJFileToolSwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C9E8012069E0E0008EFEF1 /* YJFileToolSwiftDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C9E8192069E0E0008EFEF1 /* Build configuration list for PBXNativeTarget "YJFileToolSwiftDemoTests" */;
+			buildPhases = (
+				18C9E7FE2069E0E0008EFEF1 /* Sources */,
+				18C9E7FF2069E0E0008EFEF1 /* Frameworks */,
+				18C9E8002069E0E0008EFEF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C9E8042069E0E0008EFEF1 /* PBXTargetDependency */,
+			);
+			name = YJFileToolSwiftDemoTests;
+			productName = YJFileToolSwiftDemoTests;
+			productReference = 18C9E8022069E0E0008EFEF1 /* YJFileToolSwiftDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18C9E80C2069E0E0008EFEF1 /* YJFileToolSwiftDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C9E81C2069E0E0008EFEF1 /* Build configuration list for PBXNativeTarget "YJFileToolSwiftDemoUITests" */;
+			buildPhases = (
+				18C9E8092069E0E0008EFEF1 /* Sources */,
+				18C9E80A2069E0E0008EFEF1 /* Frameworks */,
+				18C9E80B2069E0E0008EFEF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C9E80F2069E0E0008EFEF1 /* PBXTargetDependency */,
+			);
+			name = YJFileToolSwiftDemoUITests;
+			productName = YJFileToolSwiftDemoUITests;
+			productReference = 18C9E80D2069E0E0008EFEF1 /* YJFileToolSwiftDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C9E7E62069E0E0008EFEF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = child;
+				TargetAttributes = {
+					18C9E7ED2069E0E0008EFEF1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					18C9E8012069E0E0008EFEF1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18C9E7ED2069E0E0008EFEF1;
+					};
+					18C9E80C2069E0E0008EFEF1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18C9E7ED2069E0E0008EFEF1;
+					};
+				};
+			};
+			buildConfigurationList = 18C9E7E92069E0E0008EFEF1 /* Build configuration list for PBXProject "YJFileToolSwiftDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C9E7E52069E0E0008EFEF1;
+			productRefGroup = 18C9E7EF2069E0E0008EFEF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C9E7ED2069E0E0008EFEF1 /* YJFileToolSwiftDemo */,
+				18C9E8012069E0E0008EFEF1 /* YJFileToolSwiftDemoTests */,
+				18C9E80C2069E0E0008EFEF1 /* YJFileToolSwiftDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C9E7EC2069E0E0008EFEF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C9E7FC2069E0E0008EFEF1 /* LaunchScreen.storyboard in Resources */,
+				18C9E7F92069E0E0008EFEF1 /* Assets.xcassets in Resources */,
+				18C9E7F72069E0E0008EFEF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C9E8002069E0E0008EFEF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C9E80B2069E0E0008EFEF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C9E7EA2069E0E0008EFEF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C9E7F42069E0E0008EFEF1 /* ViewController.swift in Sources */,
+				18C9E7F22069E0E0008EFEF1 /* AppDelegate.swift in Sources */,
+				18C9E8212069E119008EFEF1 /* YJFileToolSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C9E7FE2069E0E0008EFEF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C9E8072069E0E0008EFEF1 /* YJFileToolSwiftDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C9E8092069E0E0008EFEF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C9E8122069E0E0008EFEF1 /* YJFileToolSwiftDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C9E8042069E0E0008EFEF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C9E7ED2069E0E0008EFEF1 /* YJFileToolSwiftDemo */;
+			targetProxy = 18C9E8032069E0E0008EFEF1 /* PBXContainerItemProxy */;
+		};
+		18C9E80F2069E0E0008EFEF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C9E7ED2069E0E0008EFEF1 /* YJFileToolSwiftDemo */;
+			targetProxy = 18C9E80E2069E0E0008EFEF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C9E7F52069E0E0008EFEF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C9E7F62069E0E0008EFEF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C9E7FA2069E0E0008EFEF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C9E7FB2069E0E0008EFEF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C9E8142069E0E0008EFEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18C9E8152069E0E0008EFEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C9E8172069E0E0008EFEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YJFileToolSwiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJ.YJFileToolSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C9E8182069E0E0008EFEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YJFileToolSwiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJ.YJFileToolSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18C9E81A2069E0E0008EFEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YJFileToolSwiftDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJ.YJFileToolSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJFileToolSwiftDemo.app/YJFileToolSwiftDemo";
+			};
+			name = Debug;
+		};
+		18C9E81B2069E0E0008EFEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YJFileToolSwiftDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJ.YJFileToolSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJFileToolSwiftDemo.app/YJFileToolSwiftDemo";
+			};
+			name = Release;
+		};
+		18C9E81D2069E0E0008EFEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YJFileToolSwiftDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJ.YJFileToolSwiftDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YJFileToolSwiftDemo;
+			};
+			name = Debug;
+		};
+		18C9E81E2069E0E0008EFEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YJFileToolSwiftDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJ.YJFileToolSwiftDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YJFileToolSwiftDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C9E7E92069E0E0008EFEF1 /* Build configuration list for PBXProject "YJFileToolSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C9E8142069E0E0008EFEF1 /* Debug */,
+				18C9E8152069E0E0008EFEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C9E8162069E0E0008EFEF1 /* Build configuration list for PBXNativeTarget "YJFileToolSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C9E8172069E0E0008EFEF1 /* Debug */,
+				18C9E8182069E0E0008EFEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C9E8192069E0E0008EFEF1 /* Build configuration list for PBXNativeTarget "YJFileToolSwiftDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C9E81A2069E0E0008EFEF1 /* Debug */,
+				18C9E81B2069E0E0008EFEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C9E81C2069E0E0008EFEF1 /* Build configuration list for PBXNativeTarget "YJFileToolSwiftDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C9E81D2069E0E0008EFEF1 /* Debug */,
+				18C9E81E2069E0E0008EFEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C9E7E62069E0E0008EFEF1 /* Project object */;
+}
