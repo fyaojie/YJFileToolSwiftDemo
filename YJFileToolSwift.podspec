@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YJFileToolSwift"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "YJFileToolSwift is a simple file management tool."
 
   # This description is used to generate tags and improve search results.
