@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YJFileToolSwift"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "YJFileToolSwift is a simple file management tool."
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "YJFileToolSwiftDemo/YJFileToolSwiftDemo/YJFileToolSwift/*.swift"
+  s.source_files  = "YJFileToolSwiftDemo/YJFileToolSwift/*.swift"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
